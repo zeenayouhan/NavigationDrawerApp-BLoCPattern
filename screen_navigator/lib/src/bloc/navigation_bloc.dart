@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:flutter_navigation_drawer_bloc/src/bloc/navigation_provider.dart';
+import 'navigation_provider.dart';
 
 class NavigationDrawerBloc {
   final navigationController = StreamController();
