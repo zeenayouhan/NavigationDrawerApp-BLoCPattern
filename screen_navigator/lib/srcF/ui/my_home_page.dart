@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:screen_navigator/src/ui/bloc/navigation_bloc.dart';
+import 'package:screen_navigator/srcF/bloc/navigation_c.dart';
 import 'home.dart';
 import 'page_one.dart';
 import 'page_two.dart';

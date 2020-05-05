@@ -13,9 +13,12 @@ class NavigationDrawerBloc {
     navigationController.sink.add(navigationProvider.currentNavigation);
   }
 
+
   void dispose() {
     navigationController.close();
   }
-}
 
-final bloc = NavigationDrawerBloc();
+
+  
+}
+  final bloc = NavigationDrawerBloc();
